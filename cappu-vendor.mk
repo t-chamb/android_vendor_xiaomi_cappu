@@ -414,6 +414,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libglslcompiler.so:system/vendor/lib64/libglslcompiler.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib/libgralloc_extra.so:system/vendor/lib/libgralloc_extra.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libgralloc_extra.so:system/vendor/lib64/libgralloc_extra.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libhwm.so:system/vendor/lib64/libhwm.so \
