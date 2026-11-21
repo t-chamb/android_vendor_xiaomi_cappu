@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
     vendor/xiaomi/cappu/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
     vendor/xiaomi/cappu/proprietary/vendor/bin/pq:system/vendor/bin/pq \
-    vendor/xiaomi/cappu/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/xiaomi/cappu/proprietary/vendor/bin/rpmb_svc:system/vendor/bin/rpmb_svc \
     vendor/xiaomi/cappu/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
     vendor/xiaomi/cappu/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
@@ -302,7 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libPQjni.so:system/vendor/lib/libPQjni.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libpq_prot.so:system/vendor/lib/libpq_prot.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libspeech_enh_lib.so:system/vendor/lib/libspeech_enh_lib.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
@@ -335,13 +333,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/audio.primary.mt8173.so:system/vendor/lib/hw/audio.primary.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/camera.mt8173.so:system/vendor/lib/hw/camera.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/gatekeeper.mt8173.so:system/vendor/lib/hw/gatekeeper.mt8173.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib/hw/gralloc.mt8173.img.so:system/vendor/lib/hw/gralloc.mt8173.img.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/hwcomposer.mt8173.so:system/vendor/lib/hw/hwcomposer.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/keystore.mt8173.so:system/vendor/lib/hw/keystore.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/lights.mt8173.so:system/vendor/lib/hw/lights.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/memtrack.mt8173.so:system/vendor/lib/hw/memtrack.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/sensors.mt8173.so:system/vendor/lib/hw/sensors.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vulkan.mt8173.so:system/vendor/lib/hw/vulkan.mt8173.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib/hw/vulkan.mt8173.so:system/vendor/lib/vulkan.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/lib3a_sample.so:system/vendor/lib64/lib3a_sample.so \
@@ -452,10 +450,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libPQjni.so:system/vendor/lib64/libPQjni.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libpq_prot.so:system/vendor/lib64/libpq_prot.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib64/libpvrANDROID_WSEGL.so:system/vendor/lib64/libpvrANDROID_WSEGL.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libPVRScopeServices.so:system/vendor/lib64/libPVRScopeServices.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libspeech_enh_lib.so:system/vendor/lib64/libspeech_enh_lib.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib64/libsrv_init.so:system/vendor/lib64/libsrv_init.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libsrv_um.so:system/vendor/lib64/libsrv_um.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libstagefright_hdcptx.so:system/vendor/lib64/libstagefright_hdcptx.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/libstagefrighthw.so:system/vendor/lib64/libstagefrighthw.so \
@@ -473,13 +469,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/audio.primary.mt8173.so:system/vendor/lib64/hw/audio.primary.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/camera.mt8173.so:system/vendor/lib64/hw/camera.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/gatekeeper.mt8173.so:system/vendor/lib64/hw/gatekeeper.mt8173.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/gralloc.mt8173.img.so:system/vendor/lib64/hw/gralloc.mt8173.img.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/hwcomposer.mt8173.so:system/vendor/lib64/hw/hwcomposer.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/keystore.mt8173.so:system/vendor/lib64/hw/keystore.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/lights.mt8173.so:system/vendor/lib64/hw/lights.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/memtrack.mt8173.so:system/vendor/lib64/hw/memtrack.mt8173.so \
     vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/sensors.mt8173.so:system/vendor/lib64/hw/sensors.mt8173.so \
-    vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vulkan.mt8173.so:system/vendor/lib64/hw/vulkan.mt8173.so
+    vendor/xiaomi/cappu/proprietary/vendor/lib/libufwriter.so:system/vendor/lib/libufwriter.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib/hw/gralloc.mt8173.so:system/vendor/lib/hw/gralloc.mt8173.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib64/libufwriter.so:system/vendor/lib64/libufwriter.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/gralloc.mt8173.so:system/vendor/lib64/hw/gralloc.mt8173.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vulkan.mt8173.so:system/vendor/lib64/hw/vulkan.mt8173.so \
+    vendor/xiaomi/cappu/proprietary/vendor/lib64/hw/vulkan.mt8173.so:system/vendor/lib64/vulkan.mt8173.so
 
 
 
